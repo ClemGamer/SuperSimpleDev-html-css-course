@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.new {
+  color: rgb(233, 140, 0);
+  margin-bottom: 6px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-description {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: rgb(31, 31, 31);
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(32, 73, 255);
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+}

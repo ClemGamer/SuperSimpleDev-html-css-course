@@ -1,0 +1,13 @@
+p {
+  font-family: Arial;
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.learn-link {
+  color: rgb(0, 162, 255);
+}

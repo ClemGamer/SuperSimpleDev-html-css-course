@@ -1,0 +1,32 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.currency {
+  color: gray;
+  font-size: 14px;
+}
+
+.today {
+  margin-bottom: 6px;
+}
+
+.after-hours {
+  color: gray;
+}
+
+.up {
+  color: green;
+}
+
+.down {
+  color: red;
+}
