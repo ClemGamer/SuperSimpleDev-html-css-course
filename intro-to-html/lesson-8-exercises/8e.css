@@ -1,0 +1,37 @@
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+input {
+  display: block;
+  width: 230px;
+  background-color: rgb(230, 230, 230);
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.loc {
+  margin-bottom: 5px;
+}
+
+.dest {
+  margin-bottom: 15px;
+}
+
+button {
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button-now {
+  background-color: black;
+  color: white;
+}

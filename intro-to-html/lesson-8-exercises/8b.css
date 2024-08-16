@@ -1,0 +1,9 @@
+.question {
+  display: inline-block;
+  width: 280px;
+  vertical-align: middle;
+}
+
+.answer {
+  vertical-align: middle;
+}
