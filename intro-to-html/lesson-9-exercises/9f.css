@@ -1,0 +1,38 @@
+body {
+  font-family: "Noto Sans JP";
+}
+
+p {
+  margin: 0;
+}
+
+.character {
+  display: inline-block;
+  width: 280px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+
+.thumbnail {
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.point {
+  margin-bottom: 10px;
+}
+
+.add-favorite {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-style: none;
+  border-radius: 5px;
+}

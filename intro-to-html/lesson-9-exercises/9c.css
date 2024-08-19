@@ -1,0 +1,16 @@
+p {
+  margin: 0;
+}
+
+.question-box {
+  display: inline-block;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  width: 300px;
+  padding: 10px 10px 10px 10px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
