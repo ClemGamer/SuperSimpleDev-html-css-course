@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    background-color: green;
+    color: white;
+  ">right sidebar</div>
+
+  <div style="
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  ">
+    <div style="
+      background-color: white;
+      border-style: none;
+      border-radius: 5px;
+      width: 300px;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 10px;
+      padding: 16px 12px 16px 12px;
+    ">
+      <p style="font-weight: bold; font-size: 18px;">Modal Title</p>
+      <p>This is modal</p>
+      <div>
+        <button>Close</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
