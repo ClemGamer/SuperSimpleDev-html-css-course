@@ -16,12 +16,22 @@
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50%;
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 2px 4px 2px 4px;
 }
 
 .video-author,
@@ -36,7 +46,7 @@
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
 }
